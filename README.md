@@ -47,10 +47,10 @@ Able to change the input directory if your FAERS ACSII files are not in the same
 This script takes all the organized folders and merges into a final seven files. There are fields to adjust input path, export path, fields, years and quarters. This was run on Kaggle.
 
 ### Dedup_1.py: 
-This script takes the merged Demo file from FAERS_merge.ipynb and dedupes based on caseid and primaryid. This was run locally.
+This script takes the merged Demo file from **FAERS_merge.ipynb** and dedupes based on caseid and primaryid. This was run locally.
 
 ### Dedup_2.py: 
-This script takes the Dedup_1.py script and checks where columns reporter_country, gndr_cod, event_dt, age, reactions, and drugs match and dedup again. This was run locally.
+This script takes the **Dedup_1.py** script and checks where columns reporter_country, gndr_cod, event_dt, age, reactions, and drugs match and dedup again. This was run locally.
 
 ### FAERS_drug_normalize.py: 
 Run this to normalize the drug names. There are fields to change data input, output, and RX Norm location. This was run locally.
@@ -59,7 +59,7 @@ Run this to normalize the drug names. There are fields to change data input, out
 Run this notebook after the deduplication script. Multiple areas to change input and export file location. This was run on Kaggle.
 
 ### Dose_Amount.py:
-Run this notebook using the FAERS_final.parquet file to clean Dose Amount column and replace strings with integers where applicable. This was run locally.
+Run this notebook using the cleaned file you get from the steps above to clean Dose Amount column and replace strings with integers where applicable. This was run locally.
 
 ### FAERS_feature_engineer-dask.ipynb: 
 Run this notebook using the cleaned FAERS file you get from running all the code above. Use **FAERS_feature_engineer-dask.ipynb** if using a large subset/whole dataset and use **FAERS_feature_engineer-pandas.ipynb** if using a smaller subset.

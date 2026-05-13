@@ -26,7 +26,7 @@ We implemented a counterfactual analysis framework using the trained XGBoost mod
 ## DEPLOYMENT
 A React front end connected to RESTful API serving the model files. The front end code is hosted on GitHub Pages, while the backend utilizes python's FastAPI package and the online API hosting site render to manage requests. You can find both the front end and backend api up and running publicly at the provided links.
 
-**FRONT END LINK:** https://cole-g-johnson.github.io/CSE6242-Spring26-Group22/
+**FRONT END LINK:** https://cole-g-johnson.github.io/CSE6242-Spring26-Group22/           
 **BACK END LINK:** https://counterfactual-api.onrender.com/
 
 ## INSTALLATION (How to install and setup your code):

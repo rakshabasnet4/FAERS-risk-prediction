@@ -1,6 +1,9 @@
 Adverse Event Clinician Dashboard (Describe the package in a few paragraphs)
 
 This repository contains the script tools to download the FAERS ASCII dataset, clean and encode the dataset, build XGBoost and counterfactual analysis, and finally visualize the result in a clinician dashboard.
+
+DOC: Holds the project poster and project report PDF files.
+
 The "FAERS_data_download_cleaning" folder holds all files needed to download, clean, and merge the FAERS dataset. The "FAERS_drug_normalize.py" script reduces number of drugs from hundreds of thousands to tens of thousands via an RX norm API call. Please be advised that API lookups are rate limited, if the drug dataset is large (millions of rows) then this step may take several hours. After running all scripts in this folder the final data frame can be used for exploratory analysis and feature engineering.
 The data exploration focused on finding correlations, distributions, and any other interesting findings. The most interesting chart generated (located here) showed an abnormal jump in deaths for patients in their low 40s. Further analysis showed this bump is almost completely attributed to females.
 

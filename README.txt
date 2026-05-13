@@ -58,4 +58,4 @@ Backend: This folder contains all the files needed to host the backend API on 
 
 Frontend: This folder contains all front end code for our visalization. Fork this repository and run pnpm install and dev to run.
 
-EDA This folder contains a ipynb file for exploratory data analysis. Also included are some of the images generated from the script.
+EDA: This folder contains a ipynb file for exploratory data analysis. Also included are some of the images generated from the script.
